@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/Thanh-Phuog/shop-web-Devops.git'
+                git branch: 'master', url: 'https://github.com/Thanh-Phuog/shop_web_jenkins.git'
             }
         }
 
